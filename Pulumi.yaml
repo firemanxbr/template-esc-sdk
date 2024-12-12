@@ -1,0 +1,11 @@
+name: template-esc-sdk
+description: A minimal pulumi-esc-sdk project
+runtime:
+  name: python
+  options:
+    virtualenv: .venv
+    toolchain: uv
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: python
